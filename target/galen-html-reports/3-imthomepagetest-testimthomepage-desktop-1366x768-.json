@@ -1,0 +1,765 @@
+{
+  "testId" : "3-imthomepagetest-testimthomepage-desktop-1366x768-",
+  "name" : "ImtHomePageTest#testImtHomePage (desktop 1366x768)",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+      "status" : "error",
+      "time" : 1558014385922,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+          "lineNumber" : 33
+        },
+        "objects" : [ {
+          "name" : "INSURE",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 35
+            },
+            "name" : "aligned horizontally all CONDITIONS_FAQS_SIGNIN",
+            "errors" : [ "\"INSURE\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "CONDITIONS",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 38
+            },
+            "name" : "aligned horizontally all FAQS",
+            "errors" : [ "\"CONDITIONS\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "FAQS",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 41
+            },
+            "name" : "aligned horizontally all SIGNIN",
+            "errors" : [ "\"FAQS\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "SIGNIN",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 44
+            },
+            "name" : "aligned horizontally all CONDITIONS",
+            "errors" : [ "\"SIGNIN\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Car_Image",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 47
+            },
+            "name" : "image file expectedImages\\carpic.png, error 10%",
+            "errors" : [ "\"Car_Image\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 48
+            },
+            "name" : "height 272px",
+            "errors" : [ "\"Car_Image\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 49
+            },
+            "name" : "width 1011px",
+            "errors" : [ "\"Car_Image\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 50
+            },
+            "name" : "aligned vertically centered WelcomeText_EntireBox",
+            "errors" : [ "\"Car_Image\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "OutsideWelcomeText_EntireBox",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 53
+            },
+            "name" : "height 150px",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 54
+            },
+            "name" : "width 873px",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 55
+            },
+            "name" : "css color is \"#37424A\"",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 56
+            },
+            "name" : "css font-family contains \"Gotham Light\"",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 57
+            },
+            "name" : "css font-size is \"25px\"",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 58
+            },
+            "name" : "css line-heightn is \"50px\"",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 59
+            },
+            "name" : "css text-align is \"centered\"",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 60
+            },
+            "name" : "aligned vertically centered Plate_Number",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 61
+            },
+            "name" : "aligned vertically centered InsideWelcomeText_EntireBox",
+            "errors" : [ "\"OutsideWelcomeText_EntireBox\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Plate_Number",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 64
+            },
+            "name" : "css box-sizing is \"border-box\"",
+            "errors" : [ "\"Plate_Number\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 65
+            },
+            "name" : "height 67.5px",
+            "errors" : [ "\"Plate_Number\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 66
+            },
+            "name" : "width 448.5px",
+            "errors" : [ "\"Plate_Number\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 67
+            },
+            "name" : "css background-color is \"#FFFFFF\"",
+            "errors" : [ "\"Plate_Number\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 68
+            },
+            "name" : "aligned horizontally centered flag",
+            "errors" : [ "\"Plate_Number\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Flag",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 71
+            },
+            "name" : "height 67px",
+            "errors" : [ "\"Flag\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 72
+            },
+            "name" : "width 48px",
+            "errors" : [ "\"Flag\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Continue_button",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 75
+            },
+            "name" : "height 50px",
+            "errors" : [ "\"Continue_button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 76
+            },
+            "name" : "width 217px",
+            "errors" : [ "\"Continue_button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 77
+            },
+            "name" : "css background-color is \"#CC0000\"",
+            "errors" : [ "\"Continue_button\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 78
+            },
+            "name" : "aligned vertically centered Continue_button_Text",
+            "errors" : [ "\"Continue_button\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Continue_button_Text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 81
+            },
+            "name" : "height 12px",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 82
+            },
+            "name" : "width 121.52px",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 83
+            },
+            "name" : "css color is \"#FFFFFF\"",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 84
+            },
+            "name" : "css font-family contains \"Gotham Medium\"",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 85
+            },
+            "name" : "css font-size is \"14px\"",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 86
+            },
+            "name" : "css  line-height is \"13px\"",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 87
+            },
+            "name" : "css  text-align is \"centered\"",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 88
+            },
+            "name" : "aligned vertically centered Plate_Number",
+            "errors" : [ "\"Continue_button_Text\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "2018_MARSH_LLC_ALL_RIGHTS_RESERVED",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 92
+            },
+            "name" : "height    14px",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 93
+            },
+            "name" : "width    252px",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 94
+            },
+            "name" : "css color is   \"#5C5C5C\"",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 95
+            },
+            "name" : "css font-family contains    \"Helvetica Neue\"",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 96
+            },
+            "name" : "css font-size  is  \"12px\"",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 97
+            },
+            "name" : "css line-height  is  \"14px\"",
+            "errors" : [ "\"2018_MARSH_LLC_ALL_RIGHTS_RESERVED\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Privacy_Information",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 100
+            },
+            "name" : "height 14px",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 101
+            },
+            "name" : "width 252px",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 102
+            },
+            "name" : "css color is \"#5C5C5C\"",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 103
+            },
+            "name" : "css font-family contains \"Helvetica Neue\"",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 104
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 105
+            },
+            "name" : "css line-height is \"14px\"",
+            "errors" : [ "\"Privacy_Information\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Conditions",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 108
+            },
+            "name" : "height 14px",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 109
+            },
+            "name" : "width 59px",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 110
+            },
+            "name" : "css color is \"#0090FF\"",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 111
+            },
+            "name" : "css font-family contains \"Helvetica Neue\"",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 112
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 113
+            },
+            "name" : "css line-height is \"14px\"",
+            "errors" : [ "\"Conditions\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "About_Marsh",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 116
+            },
+            "name" : "height 14px",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 117
+            },
+            "name" : "width 70px",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 118
+            },
+            "name" : "css color is \"#0090FF\"",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 119
+            },
+            "name" : "css font-family contains \"Helvetica Neue\"",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 120
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 121
+            },
+            "name" : "css line-height is \"14px\"",
+            "errors" : [ "\"About_Marsh\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Contact",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 124
+            },
+            "name" : "height 14px",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 125
+            },
+            "name" : "width 43px",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 126
+            },
+            "name" : "css color is \"#0090FF\"",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 127
+            },
+            "name" : "css font-family contains \"Helvetica Neue\"",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 128
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 129
+            },
+            "name" : "css line-height is \"14px\"",
+            "errors" : [ "\"Contact\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Netherlands_Flag",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 132
+            },
+            "name" : "height 10px",
+            "errors" : [ "\"Netherlands_Flag\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 133
+            },
+            "name" : "width 15px",
+            "errors" : [ "\"Netherlands_Flag\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Netherlands",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 136
+            },
+            "name" : "height 14px",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 137
+            },
+            "name" : "width 65px",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 138
+            },
+            "name" : "css color is \"#5C5C5C\"",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 139
+            },
+            "name" : "css font-family contains  \"Helvetica Neue\"",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 140
+            },
+            "name" : "css font-size is \"12px\"",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 141
+            },
+            "name" : "css line-height is \"14px\"",
+            "errors" : [ "\"Netherlands\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "If_not_Text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 144
+            },
+            "name" : "aligned horizontally bottom Skip_Link",
+            "errors" : [ "\"If_not_Text\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "Skip_Link",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Manish\\Desktop\\M3bi\\UI/src/test/java/resources/specFiles/imtHomePage.spec",
+              "lineNumber" : 147
+            },
+            "name" : "aligned horizontally bottom If_not_Text",
+            "errors" : [ "\"Skip_Link\" is absent on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

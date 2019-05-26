@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "ImtHomePageTest#testImtHomePage (desktop 1366x768)",
+    "startedAt" : 1558017236911,
+    "endedAt" : 1558017289775,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 6,
+      "errors" : 70,
+      "warnings" : 0,
+      "total" : 76
+    },
+    "testId" : "1-imthomepagetest-testimthomepage-desktop-1366x768-",
+    "duration" : 52864,
+    "failed" : true
+  } ]
+}

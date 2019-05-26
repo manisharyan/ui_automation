@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="component.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Suite 1(failed)">
+    <classes>
+      <class name="tests.VehiclePageHeaderTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="testVehiclePageHeader" invocation-numbers="0"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+        </methods>
+      </class> <!-- tests.VehiclePageHeaderTest -->
+      <class name="tests.VehiclePageMainSection1Test">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="testVehiclePageMainSection1" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+        </methods>
+      </class> <!-- tests.VehiclePageMainSection1Test -->
+      <class name="tests.OperationPageTest">
+        <methods>
+          <include name="testOperationPage" invocation-numbers="0"/>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+        </methods>
+      </class> <!-- tests.OperationPageTest -->
+      <class name="tests.VehiclePageMainSection2Test">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+          <include name="testVehiclePageMainSection2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.VehiclePageMainSection2Test -->
+      <class name="tests.VehiclePageFooterTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="testVehiclePageFooter" invocation-numbers="0"/>
+          <include name="updateMethodName"/>
+        </methods>
+      </class> <!-- tests.VehiclePageFooterTest -->
+      <class name="tests.ImtDriverPageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="testImtDriverPage" invocation-numbers="0"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+        </methods>
+      </class> <!-- tests.ImtDriverPageTest -->
+      <class name="tests.ImtVehiclePageTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="initReport"/>
+          <include name="provideTestEndDate"/>
+          <include name="quitDriver"/>
+          <include name="updateMethodName"/>
+          <include name="testImtVehiclePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.ImtVehiclePageTest -->
+    </classes>
+  </test> <!-- Suite 1(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

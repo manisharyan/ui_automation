@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Manish\Desktop\M3bi\UI\testng1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="tests.ImtHomePageTest" hash-for-method="testImtHomePage(desktop 1366x768)">testImtHomePage(desktop 1366x768)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ImtHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testImtHomePage(desktop 1366x768)">
+                  </a> <!-- testImtHomePage(desktop 1366x768) -->
+                  <span class="method-name">testImtHomePage</span>
+                  <span class="parameters">(desktop 1366x768)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: com.galenframework.support.LayoutValidationException: C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec, tags: [desktop]
+  - &quot;INSURE&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:35)
+  - &quot;CONDITIONS&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:38)
+  - &quot;FAQS&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:41)
+  - &quot;SIGNIN&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:44)
+  - &quot;Car_Image&quot; height is 232px instead of 272px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:48)
+  - &quot;Car_Image&quot; width is 556px instead of 1011px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:49)
+  - Cannot find locator for &quot;WelcomeText_EntireBox&quot; in page spec (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:50)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:53)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:54)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:55)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:56)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:57)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:58)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:59)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:60)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:61)
+  - &quot;Plate_Number&quot; height is 68.0px instead of 67.5px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:65)
+  - &quot;Plate_Number&quot; width is 225.0px instead of 448.5px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:66)
+  - &quot;Plate_Number&quot; css property &quot;background-color&quot; is &quot;rgba(255, 255, 255, 1)&quot; but should be &quot;#FFFFFF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:67)
+  - Cannot find locator for &quot;flag&quot; in page spec (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:68)
+  - &quot;Flag&quot; height is 68px instead of 67px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:71)
+  - &quot;Flag&quot; width is 49px instead of 48px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:72)
+  - &quot;Continue_button&quot; height is 16px instead of 50px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:75)
+  - &quot;Continue_button&quot; width is 63px instead of 217px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:76)
+  - &quot;Continue_button&quot; css property &quot;background-color&quot; is &quot;rgba(0, 0, 0, 0)&quot; but should be &quot;#CC0000&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:77)
+  - &quot;Continue_button_Text&quot; is not aligned vertically centered with &quot;Continue_button&quot;. Offset is 1px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:78)
+  - &quot;Continue_button_Text&quot; height is 40px instead of 12px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:81)
+  - &quot;Continue_button_Text&quot; width is 200.00px instead of 121.52px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:82)
+  - &quot;Continue_button_Text&quot; css property &quot;color&quot; is &quot;rgba(255, 255, 255, 1)&quot; but should be &quot;#FFFFFF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:83)
+  - &quot;Continue_button_Text&quot; css property &quot;font-family&quot; is &quot;&quot;Gotham A&quot;, &quot;Gotham B&quot;&quot; but should contain &quot;Gotham Medium&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:84)
+  - &quot;Continue_button_Text&quot; css property &quot;line-height&quot; is &quot;20px&quot; but should be &quot;13px&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:86)
+  - &quot;Continue_button_Text&quot; css property &quot;text-align&quot; is &quot;center&quot; but should be &quot;centered&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:87)
+  - &quot;Plate_Number&quot; is not aligned vertically centered with &quot;Continue_button_Text&quot;. Offset is 62px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:88)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:92)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:93)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:94)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:95)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:96)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:97)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:100)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:101)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:102)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:103)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:104)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:105)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:108)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:109)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:110)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:111)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:112)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:113)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:116)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:117)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:118)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:119)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:120)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:121)
+  - &quot;Contact&quot; height is 15px instead of 14px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:124)
+  - &quot;Contact&quot; width is 48px instead of 43px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:125)
+  - &quot;Contact&quot; css property &quot;color&quot; is &quot;rgba(34, 34, 34, 1)&quot; but should be &quot;#0090FF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:126)
+  - &quot;Contact&quot; css property &quot;font-family&quot; is &quot;&quot;Gotham A&quot;, &quot;Gotham B&quot;&quot; but should contain &quot;Helvetica Neue&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:127)
+  - &quot;Contact&quot; css property &quot;line-height&quot; is &quot;17.1429px&quot; but should be &quot;14px&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:129)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:136)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:137)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:138)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:139)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:140)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:141)
+  - &quot;If_not_Text&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:144)
+  - &quot;Skip_Link&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:147)
+
+	at component.TestBase.checkPageLayout(TestBase.java:144)
+	at tests.ImtHomePageTest.testImtHomePage(ImtHomePageTest.java:18)
+Caused by: com.galenframework.support.LayoutValidationException: C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec, tags: [desktop]
+  - &quot;INSURE&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:35)
+  - &quot;CONDITIONS&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:38)
+  - &quot;FAQS&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:41)
+  - &quot;SIGNIN&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:44)
+  - &quot;Car_Image&quot; height is 232px instead of 272px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:48)
+  - &quot;Car_Image&quot; width is 556px instead of 1011px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:49)
+  - Cannot find locator for &quot;WelcomeText_EntireBox&quot; in page spec (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:50)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:53)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:54)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:55)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:56)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:57)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:58)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:59)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:60)
+  - &quot;OutsideWelcomeText_EntireBox&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:61)
+  - &quot;Plate_Number&quot; height is 68.0px instead of 67.5px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:65)
+  - &quot;Plate_Number&quot; width is 225.0px instead of 448.5px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:66)
+  - &quot;Plate_Number&quot; css property &quot;background-color&quot; is &quot;rgba(255, 255, 255, 1)&quot; but should be &quot;#FFFFFF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:67)
+  - Cannot find locator for &quot;flag&quot; in page spec (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:68)
+  - &quot;Flag&quot; height is 68px instead of 67px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:71)
+  - &quot;Flag&quot; width is 49px instead of 48px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:72)
+  - &quot;Continue_button&quot; height is 16px instead of 50px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:75)
+  - &quot;Continue_button&quot; width is 63px instead of 217px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:76)
+  - &quot;Continue_button&quot; css property &quot;background-color&quot; is &quot;rgba(0, 0, 0, 0)&quot; but should be &quot;#CC0000&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:77)
+  - &quot;Continue_button_Text&quot; is not aligned vertically centered with &quot;Continue_button&quot;. Offset is 1px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:78)
+  - &quot;Continue_button_Text&quot; height is 40px instead of 12px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:81)
+  - &quot;Continue_button_Text&quot; width is 200.00px instead of 121.52px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:82)
+  - &quot;Continue_button_Text&quot; css property &quot;color&quot; is &quot;rgba(255, 255, 255, 1)&quot; but should be &quot;#FFFFFF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:83)
+  - &quot;Continue_button_Text&quot; css property &quot;font-family&quot; is &quot;&quot;Gotham A&quot;, &quot;Gotham B&quot;&quot; but should contain &quot;Gotham Medium&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:84)
+  - &quot;Continue_button_Text&quot; css property &quot;line-height&quot; is &quot;20px&quot; but should be &quot;13px&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:86)
+  - &quot;Continue_button_Text&quot; css property &quot;text-align&quot; is &quot;center&quot; but should be &quot;centered&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:87)
+  - &quot;Plate_Number&quot; is not aligned vertically centered with &quot;Continue_button_Text&quot;. Offset is 62px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:88)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:92)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:93)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:94)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:95)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:96)
+  - &quot;2018_MARSH_LLC_ALL_RIGHTS_RESERVED&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:97)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:100)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:101)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:102)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:103)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:104)
+  - &quot;Privacy_Information&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:105)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:108)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:109)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:110)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:111)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:112)
+  - &quot;Conditions&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:113)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:116)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:117)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:118)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:119)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:120)
+  - &quot;About_Marsh&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:121)
+  - &quot;Contact&quot; height is 15px instead of 14px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:124)
+  - &quot;Contact&quot; width is 48px instead of 43px (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:125)
+  - &quot;Contact&quot; css property &quot;color&quot; is &quot;rgba(34, 34, 34, 1)&quot; but should be &quot;#0090FF&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:126)
+  - &quot;Contact&quot; css property &quot;font-family&quot; is &quot;&quot;Gotham A&quot;, &quot;Gotham B&quot;&quot; but should contain &quot;Helvetica Neue&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:127)
+  - &quot;Contact&quot; css property &quot;line-height&quot; is &quot;17.1429px&quot; but should be &quot;14px&quot; (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:129)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:136)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:137)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:138)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:139)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:140)
+  - &quot;Netherlands&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:141)
+  - &quot;If_not_Text&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:144)
+  - &quot;Skip_Link&quot; is absent on page (C:\Users\Manish\Desktop\M3bi\UI/src/test/java/resources/specFiles/imtHomePage.spec:147)
+
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:129)
+	at com.galenframework.support.GalenJavaTestBase.checkLayout(GalenJavaTestBase.java:111)
+	at component.TestBase.checkPageLayout(TestBase.java:140)
+	... 26 more
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Manish\Desktop\M3bi\UI\testng1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;component.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ImtHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testImtHomePage')
+data.setCell(0, 2, 'tests.ImtHomePageTest')
+data.setCell(0, 3, 52834);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ImtHomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initDriver([desktop 1366x768])</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initReport(public void tests.ImtHomePageTest.testImtHomePage(component.TestBase$TestDevice), [desktop 1366x768])</span>
+                <span class="method-start">6311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">updateMethodName(public void tests.ImtHomePageTest.testImtHomePage(component.TestBase$TestDevice), [desktop 1366x768]...)</span>
+                <span class="method-start">6322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testImtHomePage(desktop 1366x768)</span>
+                <span class="method-start">6323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">provideTestEndDate</span>
+                <span class="method-start">59183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">59184 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
